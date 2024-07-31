@@ -3,13 +3,13 @@
 import Link from "next/link";
 import { useRouter } from 'next/navigation';
 import { ChangeEvent, FormEvent, useState, useEffect } from "react";
-import Cookies from "js-cookie"
 
 interface FormData {
   username: string;
   email: string;
   password: string;
 }
+
 
 const SignupForm: React.FC = () => {
   const router = useRouter();

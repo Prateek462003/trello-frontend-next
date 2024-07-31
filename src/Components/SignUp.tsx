@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useRouter } from 'next/navigation';
-import { ChangeEvent, FormEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState, useEffect } from "react";
+import Cookies from "js-cookie"
 
 interface FormData {
   username: string;
@@ -56,6 +57,7 @@ const SignupForm: React.FC = () => {
       setError("An error occurred during signing up!!");
     }
   };
+
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-100 to-blue-400">
