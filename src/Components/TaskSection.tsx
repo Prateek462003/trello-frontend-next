@@ -51,7 +51,7 @@ const TaskSection: React.FC = () => {
                     <img src="/assets/accessAnywhere.png" className="h-16 w-20" alt="" />
                     <div className="flex flex-col">
                         <span className="text-sm text-gray-400 font-semibold">Access Anywhere</span>
-                        <span className="text-gray-400 text-sm">Sync your notes across all devices. Stay productive whether you're on your phone, tablet, or computer.</span>
+                        <span className="text-gray-400 text-sm">Sync your notes across all devices. Stay productive whether you are on your phone, tablet, or computer.</span>
                     </div>
                 </div>
             </div>

@@ -94,7 +94,7 @@ export default function LoginPage() {
                         <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">Login</button>
                     </form>
                     <p className="mt-4 text-center text-gray-700">
-                        Don't have an account? <Link href="/" className="text-blue-500">Create a new Account.</Link>
+                        Do not have an account? <Link href="/" className="text-blue-500">Create a new Account.</Link>
                     </p>
                 </div>
             </div>
